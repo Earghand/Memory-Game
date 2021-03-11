@@ -1,0 +1,154 @@
+/* CSS files add styling rules to your content */
+
+body {
+  text-align: center;
+/* font-family: helvetica, arial, sans-serif; */
+font-family: Calibri, sans-serif;
+margin: 2em;
+height: "100%";
+/* background-color: #4158D0; background-image: linear-gradient(#4158D0, #C850C0, #FFCC70); */
+ background: linear-gradient(to left, #FFCC70, #C850C0); 
+
+}
+
+h1 {
+  text-align: center;
+  font-family:courier,arial,helvetica;
+/*   color: #373fff; */
+  color: white;
+  font-size: 70px;
+}
+
+#timers {
+  font-size: 30px;
+}
+
+#time-left {
+  color: red;
+}
+
+#startBtn {
+  font-size: 30px;
+  border-radius: 30%;
+  outline: 0;
+}
+
+#startBtn:hover {
+  background-color: yellow;
+}
+
+#stopBtn {
+  font-size: 30px;
+  border-radius: 30%;
+  outline: 0;
+  background-color: red;
+}
+
+#stopBtn:hover {
+  background-color: yellow;
+}
+
+#introduction {
+  font-size: 30px;
+}
+
+button {
+  
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#button1 {
+  background: mediumseagreen;
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button2 {
+  background: CornflowerBlue;
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button3 {
+  background: IndianRed;
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button4 {
+  background: lightyellow;
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button5 {
+  background: fuchsia;
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button6 {
+  background: gold;
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button1:active, #button1.lit {
+  background-image: url("https://cdn.glitch.com/711f353c-82a2-4958-bdb6-ad3dfac47f98%2F4c3b43e8e988c0336982966c7d3f2041.jpg?v=1615418487001");
+  border-radius: 20%;
+  outline:0;
+  border-style: solid;
+}
+
+#button2:active, #button2.lit {
+  background-image: url("https://cdn.glitch.com/711f353c-82a2-4958-bdb6-ad3dfac47f98%2F34827414-background-from-dark-blue-color-pastel-paper-close-up.jpg?v=1615418421734");
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button3:active, #button3.lit{
+  background-image: url("https://cdn.glitch.com/711f353c-82a2-4958-bdb6-ad3dfac47f98%2Fred-fabric-texture_23-2147729333.jpg?v=1615418572113");
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button4:active, #button4.lit {
+  background-image: url("https://cdn.glitch.com/711f353c-82a2-4958-bdb6-ad3dfac47f98%2Fdownload%20(1).jpg?v=1615418627022");
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button5:active, #button5.lit {
+  background-image: url("https://cdn.glitch.com/711f353c-82a2-4958-bdb6-ad3dfac47f98%2Fclose-up-purple-fabric-texture-128207600.jpg?v=1615418671125");
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
+
+#button6:active, #button6.lit {
+  background-image: url("https://cdn.glitch.com/711f353c-82a2-4958-bdb6-ad3dfac47f98%2F78601630-close-up-of-seamless-orange-fabric-detail-texture-for-background.jpg?v=1615418764839");
+  border-radius: 20%;
+  outline: 0;
+  border-style: solid;
+}
