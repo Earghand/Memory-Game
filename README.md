@@ -37,7 +37,6 @@ The following **additional** features are implemented:
 - [x] Changed the background of the application to a gradient color.
 - [x] Changed the styling of the buttons by adding rounded corners.
 - [x] Changed the font and color of the text.
-List anything else that you can get done to improve the app!
 
 ## Video Walkthrough
 
